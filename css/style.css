@@ -16,6 +16,10 @@ body {
     background: none;
 }
 
+div {
+    border: 2px solid black !important;
+}
+
 .container-fluid {
     border: none;
 }
