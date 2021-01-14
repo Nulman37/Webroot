@@ -2,66 +2,279 @@
 <html lang="en-us">
 
 <head>
-    <title>Travis Simmers</title>
+    <title>Travis Simmers' Portfolio</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="This text is what appears in the paragraph that accompanies the link in search engine results." />
-    <meta name="keywords" content="application developer, programmer, c#, javascript, node.js, asp.net, sql, sql server, microsoft sql server, mcv, react" />
+    <meta name="keywords" content="Travis Simmers, application developer, programmer, c#, javascript, node.js, asp.net, sql, sql server, microsoft sql server, mcv, react" />
     <meta name="author" content="Travis Simmers" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
-          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    <!-- Display profile picture and bio side-by-side, 2 columns. -->
-    <div class="container-fluid">
-        <h1>Web Resources</h1>
-        <ol>
-            <li>
-                <p>Name of the Web Resource<br />
-                    Text description of what information the resource contains,
-                    why is this information valuable, to what kind of developer
-                    is it most valuable to, and anything else you want to say.<br />
-                    <strong>Rating System</strong>
-                </p>
-            </li>
-            <li>
-                <p>Name of the Web Resource<br />
-                    Text description of what information the resource contains,
-                    why is this information valuable, to what kind of developer
-                    is it most valuable to, and anything else you want to say.<br />
-                    <strong>Rating System</strong>
-                </p>
-            </li>
-            <li>
-                <p>Name of the Web Resource<br />
-                    Text description of what information the resource contains,
-                    why is this information valuable, to what kind of developer
-                    is it most valuable to, and anything else you want to say.<br />
-                    <strong>Rating System</strong>
-                </p>
-            </li>
-            <li>
-                <p>Name of the Web Resource<br />
-                    Text description of what information the resource contains,
-                    why is this information valuable, to what kind of developer
-                    is it most valuable to, and anything else you want to say.<br />
-                    <strong>Rating System</strong>
-                </p>
-            </li>
-            <li>
-                <p>Name of the Web Resource<br />
-                    Text description of what information the resource contains,
-                    why is this information valuable, to what kind of developer
-                    is it most valuable to, and anything else you want to say.<br />
-                    <strong>Rating System</strong>
-                </p>
-            </li>
-        </ol>
 
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Travis Simmers</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="../index.html"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-person-badge"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-code-slash"></i> Projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="bi bi-book-half"></i> Articles
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../WebRoot/html/webresources.html">Top 5 Web Resources</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <main>
+            <div class="header-card bg-dark">
+                <div class="row">
+                    <div class="col col-12">
+                        <h3 class="text-light">Web Resources</h3>
+                        <p class="text-light">
+                            Hi, I'm Travis, it's great to meet you! I'm currently studying Application
+                            Development at Bellevue College. I've been programming for 4 years and have
+                            worked with web environments in the past. My focus in application development
+                            has been with the Microsoft stack, learning C#, SQL, ASP.NET, among others. I'm
+                            always interested in new projects that require development support.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-webresource bg-dark">
+                <div class="row resource">
+                    <div class="col col-sm-12 col-md-3">
+                        <img class="card-img-top" src="../img/undraw_creativity_wqmm.svg" alt="Card image cap" />
+                    </div>
+                    <div class="col col-sm-12 col-md-9">
+                        <div class="row">
+                            <div class="col col-sm-10 col-md-5 text-left">
+                                <h4 class="text-light">Adobe Color Picker</h4>
+                            </div>
+                            <div class="col col-sm-6 col-md-4 text-left">
+                                <p class="text-rating text-light">
+                                    Rating: 
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </p>        
+                            </div>
+                            <div class="col col-sm-6 col-md-3 text-right">
+                                <a href="https://color.adobe.com/create/color-wheel" target="_blank" class="btn btn-primary"><i class="bi bi-search"></i> Visit Site</a>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <p class="resource-description text-light">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have 
+                                suffered alteration in some form, by injected humour, or randomised words which don't 
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you 
+                                need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="section-break" />
+                <div class="row resource">
+                    <div class="col col-sm-12 col-md-3">
+                        <img class="card-img-top" src="../img/undraw_personal_settings_kihd.svg" alt="Card image cap" />
+                    </div>
+                    <div class="col col-sm-12 col-md-9">
+                        <div class="row">
+                            <div class="col col-sm-10 col-md-5 text-left">
+                                <h4 class="text-light">Bootstrap 4 Reference</h4>
+                            </div>
+                            <div class="col col-sm-6 col-md-4 text-left">
+                                <p class="text-rating text-light">
+                                    Rating: 
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </p>        
+                            </div>
+                            <div class="col col-sm-6 col-md-3 text-right">
+                                <a href="https://www.w3schools.com/bootstrap4/default.asp" target="_blank" class="btn btn-primary"><i class="bi bi-search"></i> Visit Site</a>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <p class="resource-description text-light">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have 
+                                suffered alteration in some form, by injected humour, or randomised words which don't 
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you 
+                                need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="section-break" />
+                <div class="row resource">
+                    <div class="col col-sm-12 col-md-3">
+                        <img class="card-img-top" src="../img/undraw_text_files_au1q.svg" alt="Card image cap" />
+                    </div>
+                    <div class="col col-sm-12 col-md-9">
+                        <div class="row">
+                            <div class="col col-sm-10 col-md-5 text-left">
+                                <h4 class="text-light">Microsoft Docs</h4>
+                            </div>
+                            <div class="col col-sm-6 col-md-4 text-left">
+                                <p class="text-rating text-light">
+                                    Rating: 
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </p>        
+                            </div>
+                            <div class="col col-sm-6 col-md-3 text-right">
+                                <a href="https://docs.microsoft.com/en-us/documentation/" target="_blank" class="btn btn-primary"><i class="bi bi-search"></i> Visit Site</a>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <p class="resource-description text-light">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have 
+                                suffered alteration in some form, by injected humour, or randomised words which don't 
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you 
+                                need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="section-break" />
+                <div class="row resource">
+                    <div class="col col-sm-12 col-md-3">
+                        <img class="card-img-top" src="../img/undraw_Online_collaboration_re_bkpm.svg" alt="Card image cap" />
+                    </div>
+                    <div class="col col-sm-12 col-md-9">
+                        <div class="row">
+                            <div class="col col-sm-10 col-md-5 text-left">
+                                <h4 class="text-light">Stack Overflow</h4>
+                            </div>
+                            <div class="col col-sm-6 col-md-4 text-left">
+                                <p class="text-rating text-light">
+                                    Rating: 
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </p>        
+                            </div>
+                            <div class="col col-sm-6 col-md-3 text-right">
+                                <a href="https://stackoverflow.com/" target="_blank" class="btn btn-primary"><i class="bi bi-search"></i> Visit Site</a>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <p class="resource-description text-light">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have 
+                                suffered alteration in some form, by injected humour, or randomised words which don't 
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you 
+                                need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="section-break" />
+                <div class="row resource">
+                    <div class="col col-sm-12 col-md-3">
+                        <img class="card-img-top" src="../img/undraw_road_to_knowledge_m8s0.svg" alt="Card image cap" />
+                    </div>
+                    <div class="col col-sm-12 col-md-9">
+                        <div class="row">
+                            <div class="col col-sm-10 col-md-5 text-left">
+                                <h4 class="text-light">Packt Publishing</h4>
+                            </div>
+                            <div class="col col-sm-6 col-md-4 text-left">
+                                <p class="text-rating text-light">
+                                    Rating: 
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </p>        
+                            </div>
+                            <div class="col col-sm-6 col-md-3 text-right">
+                                <a href="https://www.packtpub.com/" target="_blank" class="btn btn-primary"><i class="bi bi-search"></i> Visit Site</a>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <p class="resource-description text-light">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have 
+                                suffered alteration in some form, by injected humour, or randomised words which don't 
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you 
+                                need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
+
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-6 col-xs-12">
+                    <p class="copyright-text text-light"> &copy; 2021-2021 | Travis Simmers</p>
+                </div>
+                <div class="col-md-5 col-sm-6 col-xs-12">
+                    <div class="social-media text-right">
+                        <button type="button" class="btn btn-github btn-rounded btn-icon">
+                            <i class="bi bi-github"></i>
+                        </button>
+                        <button type="button" class="btn btn-linkedin btn-rounded btn-icon">
+                            <i class="bi bi-linkedin"></i>
+                        </button>
+                        <button type="button" class="btn btn-facebook btn-rounded btn-icon">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-email btn-rounded btn-icon">
+                            <i class="bi bi-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
