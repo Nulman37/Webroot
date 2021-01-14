@@ -43,15 +43,15 @@ h4 {
     margin-left: auto;
 }
 
-hr {
-    
-    border: 0;
-    border-top: 1px dotted darkgrey;
-}
-
 .section-break {
     border: 0;
     border-top: 2px solid black;
+}
+
+.section-break-dotted-white {
+    
+    border: 0;
+    border-top: 1px dotted darkgrey;
 }
 
 .col {
@@ -59,13 +59,18 @@ hr {
     color: black;
 }
 
-.col-sm-12 {
+.card-set .row .col {
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 .row {
 
+}
+
+.footer {
+    border-top: 1px solid black;
+    box-shadow: 0 50vh 0 50vh #343a40;
 }
 
 /* Footer section */
@@ -75,10 +80,6 @@ hr {
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
-}
-
-.footer {
-    box-shadow: 0 50vh 0 50vh #343a40;
 }
 
 .copyright-text {
